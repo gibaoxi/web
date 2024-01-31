@@ -24,7 +24,7 @@ const CFPORT = process.env.CFPORT || 443;
 
 const NAME = process.env.NAME || "webapp"; 
 
-const port = process.env.SERVER_PORT || process.env.PORT || 3000; 
+const port = process.env.SERVER_PORT || process.env.PORT || 8000; 
 
 const ArgoPort = process.env.ARGO_PORT || 8080; 
 
